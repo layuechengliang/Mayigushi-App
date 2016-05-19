@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/favor"
+        android:checked="true"
+        android:title="收藏" />
+
+    <item
+        android:id="@+id/share"
+        android:checked="true"
+        android:title="分享" />
+
+    <item
+        android:id="@+id/delete"
+        android:title="删除" />
+
+</menu>

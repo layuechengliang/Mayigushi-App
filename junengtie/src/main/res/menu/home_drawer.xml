@@ -1,0 +1,40 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group
+        android:id="@+id/group1"
+        android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/home"
+            android:checked="true"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="@string/app_name" />
+
+        <item
+            android:id="@+id/settings"
+            android:icon="@drawable/ic_settings_black_24dp"
+            android:title="设置" />
+
+    </group>
+
+    <group
+        android:id="@+id/group2"
+        android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/service"
+            android:icon="@drawable/ic_chat_black_24dp"
+            android:title="客服" />
+
+        <item
+            android:id="@+id/about"
+            android:icon="@drawable/ic_info_black_24dp"
+            android:title="关于" />
+
+        <item
+            android:id="@+id/recommend"
+            android:icon="@drawable/ic_flag_black_24dp"
+            android:title="推荐" />
+
+    </group>
+
+</menu>

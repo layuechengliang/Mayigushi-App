@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/event_join"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:orientation="vertical" >
+
+        <com.mechat.mechatlibrary.custom.CircleImageView
+            android:id="@+id/avatar"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="10dp" />
+
+        <TextView
+            android:id="@+id/text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="5dp"
+            android:text="客服加入了聊天"
+            android:textColor="@color/mc_event_gray"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/event_redirect"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal" >
+
+        <com.mechat.mechatlibrary.custom.CircleImageView
+            android:id="@+id/avatar1"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:visibility="gone"
+            android:layout_above="@+id/redirect_to_tv"
+            android:layout_margin="10dp"
+            android:layout_toLeftOf="@id/redirect_to_tv" />
+
+        <com.mechat.mechatlibrary.custom.CircleImageView
+            android:id="@+id/avatar2"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_above="@+id/redirect_to_tv"
+            android:layout_margin="10dp"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:id="@+id/redirect_to_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="60dp"
+            android:text="@string/mc_redirect_to"
+            android:textColor="@color/mc_event_gray"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/avatar1_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="60dp"
+            android:layout_toLeftOf="@id/redirect_to_tv"
+            android:text="Name1"
+            android:textColor="@color/mc_event_gray"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/avatar2_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="60dp"
+            android:layout_toRightOf="@id/redirect_to_tv"
+            android:text="Name2"
+            android:textColor="@color/mc_event_gray"
+            android:textSize="14sp" />
+    </RelativeLayout>
+
+</LinearLayout><!-- From: file:/Users/tangzhifei/Desktop/Mayigushi/extras/meiqia/src/main/res/layout/mc_item_chatdetail_event.xml -->

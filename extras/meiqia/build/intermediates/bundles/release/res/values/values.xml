@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/Users/tangzhifei/Desktop/Mayigushi/extras/meiqia/src/main/res/values/mc_colors.xml -->
+    <eat-comment/>
+    <color name="mc_bg_color">#F7F8FA</color>
+    <color name="mc_chat_box_bg">#c9c9ce</color>
+    <color name="mc_chat_text_left">#333333</color>
+    <color name="mc_chat_text_right">#FFFFFF</color>
+    <color name="mc_event_gray">#808080</color>
+    <color name="mc_input_text">#aaaaaa</color>
+    <color name="mc_leave_msg_tip_bg">#f6bc66</color>
+    <color name="mc_net_not_work_bg">#e66b62</color>
+    <color name="mc_normal_text_white">#ffffffff</color>
+    <color name="mc_play_circle_progress">#43CAA9</color>
+    <color name="mc_play_circle_round">#E6E6E6</color>
+    <color name="mc_send_btn_bg">#595959</color>
+    <color name="mc_title_text">#000000</color>
+    <!-- From: file:/Users/tangzhifei/Desktop/Mayigushi/extras/meiqia/src/main/res/values/mc_dimens.xml -->
+    <eat-comment/>
+    <dimen name="mc_chat_box_height">50dp</dimen>
+    <dimen name="mc_title_height">50dp</dimen>
+    <!-- From: file:/Users/tangzhifei/Desktop/Mayigushi/extras/meiqia/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="app_name">Meiqia</string>
+    <!-- From: file:/Users/tangzhifei/Desktop/Mayigushi/extras/meiqia/src/main/res/values/mc_strings.xml -->
+    <eat-comment/>
+    <string name="mc_allocate_us">正在分配客服...</string>
+    <string name="mc_copy_success">复制成功</string>
+    <string name="mc_dialog_camera">相机</string>
+    <string name="mc_dialog_photo">图库</string>
+    <string name="mc_dialog_title">请选择图片来源：</string>
+    <string name="mc_formattersStr">M月d日</string>
+    <string name="mc_join_chat">加入了聊天</string>
+    <string name="mc_leave_msg_tip">客服已离线，现在转入留言模式</string>
+    <string name="mc_no_agent_online">当前没有客服在线</string>
+    <string name="mc_no_net_toast">网络似乎断掉了，请检查一下</string>
+    <string name="mc_no_sdcard">SD卡不存在</string>
+    <string name="mc_photo_not_support">当前设置不支持发送图片</string>
+    <string name="mc_pls_inputting">请输入...</string>
+    <string name="mc_record_cancel">取消发送</string>
+    <string name="mc_record_count_down">还可以再说 %1$d 秒</string>
+    <string name="mc_record_download_failed">下载失败，请重试</string>
+    <string name="mc_record_download_start">开始下载语音文件...</string>
+    <string name="mc_record_download_suc">下载成功</string>
+    <string name="mc_record_no_permission">没有录音权限，请重试</string>
+    <string name="mc_record_not_support">当前手机不支持录音</string>
+    <string name="mc_record_record_time_is_short">录音时间太短</string>
+    <string name="mc_record_up_and_cancel">上滑，取消发送</string>
+    <string name="mc_redirect_to"> 转接给了 </string>
+    <string name="mc_save_pic_failed">图片保存失败</string>
+    <string name="mc_save_pic_suc">保存成功\n图片已经保存到</string>
+    <string name="mc_send">发送</string>
+    <string name="mc_title_inputting">正在输入...</string>
+    <string name="mc_title_leave_msg">在线客服</string>
+    <string name="mc_title_no_net">对话</string>
+    <string name="mc_today">今天</string>
+    <string name="mc_tomorrow">昨天</string>
+    <string name="mc_wait_for_load_data">等待数据加载...</string>
+</resources>

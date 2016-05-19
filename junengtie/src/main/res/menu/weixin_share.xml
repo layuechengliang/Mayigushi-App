@@ -1,0 +1,27 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/done"
+        android:icon="@drawable/ic_done_white_24dp"
+        android:title="完成"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/share"
+        android:icon="@drawable/ic_share_white_24dp"
+        android:title="分享"
+        app:showAsAction="always">
+        <menu>
+            <item
+                android:id="@+id/shareToWXHY"
+                android:icon="@mipmap/me_wx_hy_icon"
+                android:title="微信好友" />
+            <item
+                android:id="@+id/shareToWXPYQ"
+                android:icon="@mipmap/me_wx_pyq_icon"
+                android:title="微信朋友圈" />
+        </menu>
+    </item>
+
+</menu>

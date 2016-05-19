@@ -1,0 +1,25 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/contentTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/updateTimeTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_below="@id/contentTextView"
+        android:gravity="end"
+        android:layout_marginTop="5dp"
+        android:textSize="12sp" />
+
+</RelativeLayout>

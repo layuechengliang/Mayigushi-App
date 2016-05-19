@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="15dp">
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:id="@+id/senderEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:enabled="false"
+        android:textSize="14sp" />
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:id="@+id/sendTimeEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:enabled="false"
+        android:textSize="14sp" />
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:id="@+id/sendTypeEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:enabled="false"
+        android:textSize="14sp" />
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:id="@+id/moneyTypeEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:enabled="false"
+        android:textSize="14sp" />
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:id="@+id/moneyEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:enabled="false"
+        android:textSize="14sp" />
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:id="@+id/remarkEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:enabled="false"
+        android:textSize="14sp"
+        android:visibility="gone" />
+
+
+</LinearLayout>

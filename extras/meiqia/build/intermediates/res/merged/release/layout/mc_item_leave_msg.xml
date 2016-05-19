@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <View
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@drawable/mc_gradient_line"/>
+
+    <TextView
+        android:layout_margin="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:textColor="@color/mc_event_gray"
+        android:textSize="16sp"
+        android:text="抱歉，现在没有客服人员在线\n你可以继续写下你的问题，我们会尽快回复"/>
+
+    <View
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/mc_gradient_line"/>
+
+</LinearLayout><!-- From: file:/Users/tangzhifei/Desktop/Mayigushi/extras/meiqia/src/main/res/layout/mc_item_leave_msg.xml -->

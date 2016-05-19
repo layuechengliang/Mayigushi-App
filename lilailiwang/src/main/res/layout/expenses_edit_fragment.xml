@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="15dp">
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:id="@+id/receiverEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="收礼人姓名"
+        android:textSize="14sp"
+        app:met_floatingLabel="highlight"
+        app:met_maxCharacters="10"
+        app:met_minCharacters="2" />
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:id="@+id/receiverTimeEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusable="false"
+        android:hint="送礼时间"
+        android:textSize="14sp"
+        app:met_floatingLabel="highlight" />
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:id="@+id/reasonTypeEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusable="false"
+        android:hint="送礼事由"
+        android:textSize="14sp"
+        app:met_floatingLabel="highlight" />
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:id="@+id/sendTypeEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusable="false"
+        android:hint="送礼方式"
+        android:textSize="14sp"
+        app:met_floatingLabel="highlight" />
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:id="@+id/moneyTypeEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusable="false"
+        android:hint="礼金形式"
+        android:textSize="14sp"
+        app:met_floatingLabel="highlight" />
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:id="@+id/moneyEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="送礼金额"
+        android:inputType="number"
+        android:textSize="14sp"
+        app:met_floatingLabel="highlight" />
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:id="@+id/remarkEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="备注（可选项）"
+        android:maxLines="5"
+        android:textSize="14sp"
+        app:met_floatingLabel="highlight" />
+
+</LinearLayout>

@@ -1,0 +1,67 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group
+        android:id="@+id/group1"
+        android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/home"
+            android:checked="true"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="首页" />
+
+        <!--<item
+            android:id="@+id/chart"
+            android:icon="@drawable/ic_insert_chart_black_24dp"
+            android:title="统计" />-->
+
+        <item
+            android:id="@+id/settings"
+            android:icon="@drawable/ic_settings_black_24dp"
+            android:title="设置" />
+
+    </group>
+
+    <group
+        android:id="@+id/group2"
+        android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/upload"
+            android:icon="@drawable/ic_cloud_upload_black_24dp"
+            android:title="云备份" />
+
+        <item
+            android:id="@+id/download"
+            android:icon="@drawable/ic_cloud_download_black_24dp"
+            android:title="云恢复" />
+
+    </group>
+
+    <group
+        android:id="@+id/group3"
+        android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/about"
+            android:icon="@drawable/ic_info_black_24dp"
+            android:title="关于" />
+
+        <item
+            android:id="@+id/recommend"
+            android:icon="@drawable/ic_flag_black_24dp"
+            android:title="推荐" />
+
+        <item
+            android:id="@+id/share"
+            android:icon="@drawable/ic_share_black_24dp"
+            android:title="分享" />
+
+        <item
+            android:id="@+id/service"
+            android:icon="@drawable/ic_chat_black_24dp"
+            android:title="客服" />
+
+    </group>
+
+</menu>

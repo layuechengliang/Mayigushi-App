@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:orientation="horizontal">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="15dp">
+
+        <View
+            android:layout_width="2dp"
+            android:layout_height="match_parent"
+            android:layout_centerHorizontal="true"
+            android:background="@color/primary" />
+
+        <TextView
+            android:id="@+id/typeTextView"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/timeline_type"
+            android:gravity="center"
+            android:textColor="@android:color/white"
+            android:textSize="12sp" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="15dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="17dp"
+        android:background="@drawable/timeline_content"
+        android:orientation="vertical"
+        android:paddingBottom="5dp"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:paddingTop="5dp">
+
+        <TextView
+            android:id="@+id/timeTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/nameTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/reasonTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/moneyTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:textSize="14sp" />
+
+    </LinearLayout>
+
+</LinearLayout>
+
+
