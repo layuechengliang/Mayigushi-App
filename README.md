@@ -6,8 +6,8 @@
 
 该项目是蚂蚁故事网开发的app，其下包含2个小项目，公用模块放置在extras下
 
-*礼来礼往 [apk下载地址](http://fir.im/27rg)
-*巨能贴 [apk下载地址](http://fir.im/akz8)
+* 礼来礼往 [apk下载地址](http://fir.im/27rg)
+* 巨能贴 [apk下载地址](http://fir.im/akz8)
 
 ## 截图
 
