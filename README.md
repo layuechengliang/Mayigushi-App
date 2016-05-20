@@ -16,7 +16,7 @@
 
 ## 截图
 
-![](./lilailiwang/screenshots/59A81DCB53C3E8EC66A37770FF25E705.jpg)
+![](./lilailiwang/screenshots/59A81DCB53C3E8EC66A37770FF25E705.jpg =360x)
 ![](./lilailiwang/screenshots/B97228B8772C16AFC7750606CDE89ADD.jpg)
 ![](./lilailiwang/screenshots/3C7601C44CCA667CCC8591AE9EF3CC96.jpg)
 ![](./lilailiwang/screenshots/12BD1AD68A19C73F9B9EA8D2888CC4A5.jpg)
